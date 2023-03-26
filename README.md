@@ -1,3 +1,5 @@
+README DOC FOR TWITTER SALES ALERT AUTOMATION. 
+
 TOC
 
 1. DriverzNFT Withdraw Event Listener
