@@ -17,7 +17,7 @@ pub fun main(userAddress: Address,nftID: UInt64): {String:String} {
         "Template ID": nftref.templateID.toString(),
         "Display Name": template.defaultDisplay.name,
         "Display Description": template.defaultDisplay.description,
-        "Display URI": template.defaultDisplay.thumbnail.uri()
+        "Display URI": template.defaultDisplay.thumbnail.uri(),
         "Creator": nftRef.creator.toString()
     }
 }
