@@ -5,8 +5,7 @@ TOC
 1. DriverzNFT Withdraw Event Listener
 
 
-**
-DriverzNFT Withdraw Event Listener**
+**DriverzNFT Withdraw Event Listener**
 
 This script (read_id_owneraddress_on_withdraw.py) listens for the Withdraw event from the DriverzNFT smart contract on the Flow blockchain, and writes the NFT IDs and their owner addresses to a CSV file called nft_minted.csv.
 
