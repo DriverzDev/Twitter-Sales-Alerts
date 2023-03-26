@@ -37,13 +37,14 @@ Notes
 
 **DriverzNFT Metadata Script**
 
-This Cadence script allows you to query metadata from the DriverzNFT contract deployed on the Flow Blockchain.
+This Cadence script (readDriverzPublicData.cdc) allows you to query metadata from the DriverzNFT contract deployed on the Flow Blockchain.
 
 Prerequisites
 To execute this script, you will need:
- - The contract address where the DriverzNFT contract is deployed
- - A valid NFT ID of a DriverzNFT 
- - 
+ - The contract address of NFT's owner
+ - The NFT ID
+ - - Both inputs are produced by the read_id_owneraddress_on_withdraw.py python script.
+  
 Script Overview
 The script takes two parameters: userAddress and nftID. The userAddress is the Flow account address that holds the DriverzNFT tokens, and nftID is the ID of the specific DriverzNFT token you want to query.
 
