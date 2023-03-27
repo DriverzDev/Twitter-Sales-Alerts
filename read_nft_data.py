@@ -2,13 +2,13 @@ import os
 import csv
 import asyncio
 from flow_py_sdk import flow_client, Script
-from flow_py_sdk.cadence import decode, Address, UInt64
+from flow_py_sdk.cadence import decode, Address, UInt64, encode_arguments
 
 async def main():
-    user_address = "0x759761445426d6b0"
-    nft_id = UInt64(4393)
+    user_address = "0x249ad31dd66b2fe3"
+    nft_id = UInt64(338)
     address = Address.from_hex(user_address)
-    script_file = "readDriverzPublicData.cdc"
+    script_file = "readMetaDataNFTid.cdc"
     csv_file = "nft_metadata.csv"
 
     async with flow_client(host="access.mainnet.nodes.onflow.org", port=9000) as client:
